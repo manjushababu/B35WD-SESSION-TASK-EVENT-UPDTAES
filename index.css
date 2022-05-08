@@ -1,0 +1,90 @@
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 35px;
+}
+
+.container-lg {
+    border: 1px solid black;
+    padding: 40px 120px;
+    margin: 30px auto 30px;
+}
+
+.container-main {
+    display: flex;
+    border: 1px solid black;
+    padding: 30px 95px;
+}
+
+.profile-image {
+    width: 20%;
+    margin-right: 50px;
+}
+
+.profile {
+    height: 150px;
+    width: 150px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+}
+
+.form-details {
+    width: 80%;
+}
+
+.form-tags {
+    text-align: right;
+    width: 30%;
+}
+
+select, input {
+    width: 100%;
+}
+
+table { 
+    border-collapse: separate;
+}
+
+.title {
+    width: 30%;
+    text-align: right;
+}
+
+.fields {
+    width: 70%;
+}
+
+.button-wrapper {
+    margin-top: 30px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .container-main {
+        display: block;
+        text-align: center;
+        padding: 30px;
+    }
+    .profile-image {
+        margin: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .form-details {
+        width: 100%;
+        margin-top: 17px;
+    }
+}
+
+@media only screen  and (max-width: 767px) {
+    .container-lg {
+        padding: 25px;
+    }
+    .container-main {
+        border: none;
+    }
+}
